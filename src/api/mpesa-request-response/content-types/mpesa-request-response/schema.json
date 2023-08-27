@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "mpesa_request_responses",
+  "info": {
+    "singularName": "mpesa-request-response",
+    "pluralName": "mpesa-request-responses",
+    "displayName": "Mpesa stk req resp",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "payment": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::payment.payment",
+      "inversedBy": "mpesa_request_response"
+    },
+    "ResultDesc": {
+      "type": "text"
+    },
+    "ResultCode": {
+      "type": "string"
+    },
+    "CheckoutRequestID": {
+      "type": "string"
+    },
+    "MerchantRequestID": {
+      "type": "string"
+    },
+    "initializer": {
+      "type": "string"
+    }
+  }
+}

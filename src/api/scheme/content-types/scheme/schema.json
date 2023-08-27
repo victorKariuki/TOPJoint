@@ -1,0 +1,49 @@
+{
+  "kind": "collectionType",
+  "collectionName": "schemes",
+  "info": {
+    "singularName": "scheme",
+    "pluralName": "schemes",
+    "displayName": "Scheme",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "lesson_structure": {
+      "displayName": "Lesson",
+      "type": "component",
+      "repeatable": false,
+      "component": "sow.lesson"
+    },
+    "Topics": {
+      "type": "dynamiczone",
+      "components": [
+        "level.topic"
+      ]
+    },
+    "breaks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sow.brake"
+    },
+    "topic_mods": {
+      "displayName": "Modified",
+      "type": "component",
+      "repeatable": true,
+      "component": "level.modified"
+    },
+    "subtopics_mods": {
+      "type": "component",
+      "repeatable": true,
+      "component": "level.modified"
+    },
+    "user": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "admin::user"
+    }
+  }
+}

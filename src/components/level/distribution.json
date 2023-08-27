@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_level_distributions",
+  "info": {
+    "displayName": "Distribution"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  }
+}

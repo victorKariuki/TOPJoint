@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_level_modifieds",
+  "info": {
+    "displayName": "Modified",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "new_val": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "profiles",
+  "info": {
+    "singularName": "profile",
+    "pluralName": "profiles",
+    "displayName": "profile"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "user": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "admin::user"
+    },
+    "membership": {
+      "type": "component",
+      "repeatable": false,
+      "component": "profile.membership"
+    },
+    "since": {
+      "type": "date"
+    }
+  }
+}

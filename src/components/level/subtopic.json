@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_level_subtopics",
+  "info": {
+    "displayName": "Subtopic",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "objectives": {
+      "type": "richtext"
+    },
+    "t_l_activities": {
+      "type": "richtext"
+    },
+    "t_l_aids": {
+      "type": "richtext"
+    },
+    "lns": {
+      "type": "integer"
+    }
+  }
+}

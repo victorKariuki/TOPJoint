@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "mpesa_stk_fail_responses",
+  "info": {
+    "singularName": "mpesa-stk-fail-response",
+    "pluralName": "mpesa-stk-fail-responses",
+    "displayName": "Mpesa stk fail resp",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "MerchantRequestID": {
+      "type": "string"
+    },
+    "CheckoutRequestID": {
+      "type": "string"
+    },
+    "ResultCode": {
+      "type": "string"
+    },
+    "ResultDesc": {
+      "type": "text"
+    }
+  }
+}

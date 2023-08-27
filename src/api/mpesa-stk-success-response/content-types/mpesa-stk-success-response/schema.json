@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "mpesa_stk_success_responses",
+  "info": {
+    "singularName": "mpesa-stk-success-response",
+    "pluralName": "mpesa-stk-success-responses",
+    "displayName": "Mpesa stk success resp",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "MerchantRequestID": {
+      "type": "string"
+    },
+    "CheckoutRequestID": {
+      "type": "string"
+    },
+    "ResultDesc": {
+      "type": "text"
+    },
+    "CallbackMetadata": {
+      "type": "json"
+    },
+    "mpesa_stk_req_resp": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::mpesa-request-response.mpesa-request-response"
+    }
+  }
+}

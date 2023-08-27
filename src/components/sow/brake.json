@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_sow_brakes",
+  "info": {
+    "displayName": "Break",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "lesson": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sow.ln-details"
+    },
+    "name": {
+      "type": "string"
+    }
+  }
+}

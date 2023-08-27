@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_sow_lessons",
+  "info": {
+    "displayName": "Lesson"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "lns_per_wk": {
+      "type": "integer"
+    },
+    "ln_details": {
+      "displayName": "ln_details",
+      "type": "component",
+      "repeatable": true,
+      "component": "sow.ln-details"
+    }
+  }
+}

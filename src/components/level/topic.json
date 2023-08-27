@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_level_topics",
+  "info": {
+    "displayName": "Topic",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "subtopics": {
+      "displayName": "Subtopic",
+      "type": "component",
+      "repeatable": true,
+      "component": "level.subtopic"
+    }
+  }
+}
