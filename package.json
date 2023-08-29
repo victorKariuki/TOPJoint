@@ -10,18 +10,14 @@
     "strapi": "strapi"
   },
   "dependencies": {
-    "@localazy/strapi-plugin": "^0.1.13-rc.7",
     "@notum-cz/strapi-plugin-record-locking": "^0.3.0",
     "@strapi/plugin-documentation": "^4.8.2",
-    "@strapi/plugin-i18n": "4.8.1",
-    "@strapi/plugin-users-permissions": "4.8.1",
-    "@strapi/strapi": "4.8.1",
+    "@strapi/plugin-i18n": "^4.12.7",
+    "@strapi/plugin-users-permissions": "^4.12.7",
+    "@strapi/strapi": "^4.12.7",
     "better-sqlite3": "8.0.1",
     "strapi-plugin-custom-links": "^0.2.1",
-    "strapi-plugin-fcm": "^1.0.5",
     "strapi-plugin-io": "^1.1.4",
-    "strapi-plugin-pfapi": "^2.6.9",
-    "strapi-plugin-ratings": "^1.1.9",
     "strapi-plugin-request-id": "^1.1.0",
     "strapi-plugin-rest-cache": "^4.2.7",
     "strapi-plugin-website-preview": "^1.0.5"
