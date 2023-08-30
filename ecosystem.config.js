@@ -8,7 +8,7 @@ module.exports = {
         {
             name: appName,
             script: "npm run start",
-            instances: 4,
+            instances: 2,
             exec_mode: "cluster",
             env_production: {
                 NODE_ENV: process.env.NODE_ENV,
