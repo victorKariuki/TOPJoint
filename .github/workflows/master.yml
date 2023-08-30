@@ -20,6 +20,10 @@ jobs:
     - uses: szenius/set-timezone@v1.2
       with:
           timezoneLinux: "Africa/Nairobi"
+    - name: Set dotenv variable
+      run: |
+         export NODE_ENV=production
+         export DOTENV_KEY="${{ secrets.DOTENV_KEY }}"
     - run: npm ci
     - run: npm run build --if-present
     - name: Start application
