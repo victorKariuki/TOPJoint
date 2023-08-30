@@ -27,4 +27,4 @@ jobs:
     - run: npm ci
     - run: npm run build --if-present
     - name: Start application
-      run: pm2 describe topjoint_api-development &> /dev/null && pm2 reload npm --name topjoint_api-development --env development --update-env -- run start || pm2 start npm --name topjoint_api-development --env development -- run start
+      run: pm2 describe topjoint_api-development &> /dev/null && pm2 reload ecosystem.config.js --env development --update-env || pm2 start ecosystem.config.js --env development 
