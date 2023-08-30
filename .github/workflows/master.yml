@@ -22,4 +22,6 @@ jobs:
           timezoneLinux: "Africa/Nairobi"
     - run: npm ci
     - run: npm run build --if-present
-    - run: npm start-prod
+    - name: Start application
+      run: pm2 describe topjoint_api-production &> /dev/null && pm2 reload ecosystem.config.js --env production --update-env || pm2 start ecosystem.config.js --env production
+
