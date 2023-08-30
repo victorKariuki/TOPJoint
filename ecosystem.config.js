@@ -7,8 +7,8 @@ module.exports = {
     apps: [
         {
             name: appName,
-            script: "npm run start",
-            instances: 2,
+            script: "./server.js",
+            instances: 'max',
             exec_mode: "cluster",
             env_production: {
                 NODE_ENV: process.env.NODE_ENV,
