@@ -9,8 +9,6 @@ module.exports = {
             name: appName,
             script: "npm",
             args: 'start',
-            instances: 'max',
-            exec_mode: "cluster",
             env_production: {
                 NODE_ENV: process.env.NODE_ENV,
             },
